@@ -2,7 +2,7 @@ import gradio as gr
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_groq import ChatGroq
 
-# Session-wide context
+# Session-wide context I added more contect with the help of ChatGPT to understand and respond better
 conversation_history = [SystemMessage(content="""
 You are a compassionate, knowledgeable assistant trained on the teachings of the Bhagavad Gita. 
 Your role is to provide spiritual guidance and emotional clarity to users by referencing appropriate verses, 
