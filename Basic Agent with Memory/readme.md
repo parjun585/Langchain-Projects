@@ -33,7 +33,7 @@ streamlit run streamlit_app.py
 
 ## Model Used
 ```python
-llm = OllamaLLM(model="phi")
+llm = ChatGroq(model="llama-3.1-8b-instant")
 ```
 
-You can replace "phi" with "llama3", "mistral", etc., depending on what you've installed in Ollama.
+You can replace "phi" with "llama3", "mistral", etc., or depending on what you've installed in Ollama.
